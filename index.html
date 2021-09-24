@@ -1,0 +1,64 @@
+<html>
+    <head>
+    <title>form contato</title>
+    </head>
+    <style>
+        *{margin: 10;padding:10;box-sizing:border-box;}
+        body{
+            background-color:rgb(18, 18, 19)
+        }
+        form{
+            background-color:rgb(247, 247, 248);
+            max-width: 500px;
+            width:100%;
+            padding:20px;
+            position:absolute;
+            left:50%;
+            top:50%;
+            transform: translate(-50%,-50%);
+        }
+        form h3{
+            text-align: center;
+            color:#5f7c8a
+            font-family:tomato
+        }
+
+        form input[type=text],
+        form input[type=password]{
+            width:100%;
+            height: 45px;
+            border:1px solid #ccc
+            padding-left: 10px:
+            margin:10px 0;
+        }
+
+        form input[type=submit]{
+            width:100%;
+            height:30px;
+            cursor: pointer;
+            background:#6c6e6e;
+            color:white
+            border:0;
+            border-radius:20px;
+            transition:1s;
+
+        }
+        form input[type=submit]:hover{
+
+        }
+    </style>
+    <body>
+        <form>
+            <h3>Dados cadastrais</h3>
+            <input type="text"nome="Nome..."placeholder="Nome completo..."/>
+            <input type="text"nome="cpf"placeholder="CPF..."/>
+            <input type="text"nome="endereco"placeholder="Endereco..."/>
+            <input type="text"nome="email"placeholder="Email..."/>
+            <input type="text"nome="cidade"placeholder="Cidade..."/>
+            <input type="text"nome="telefone"placeholder="Telefone..."/>
+            <input type="submit"nome="acao"volue="enviar"/>
+        </form>    
+
+    </body>
+    
+    </html>
